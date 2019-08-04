@@ -12,5 +12,30 @@ public class ProjectManagerApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
+	
+	@Test
+	public void testGetAllUsers() {
+	}
+	
+	@Test
+	public void testGetUsersById() {
+		
+	}
 
+	@Test
+	public void testAddUser() {
+		
+	}
+	@Test
+	public void testUpdateUser() {
+		
+	}
+	@Test
+	public void testDeleteUser() {
+		
+	}
+
+	private String getRootUrl() {
+		return "http://localhost:8081";
+	}
 }
