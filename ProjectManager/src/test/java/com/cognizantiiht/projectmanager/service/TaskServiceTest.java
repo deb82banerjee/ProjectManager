@@ -1,4 +1,4 @@
-package com.cognizaniiht.projectmanager.service;
+package com.cognizantiiht.projectmanager.service;
 
 import java.text.SimpleDateFormat;
 
