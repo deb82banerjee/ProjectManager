@@ -65,7 +65,6 @@ public class TaskControllerTest {
 		TaskTO task = new TaskTO(new Long(1), new Long(2), new Long(3),"Task 1", "08-08-2019", "08-09-2019", 1, 0, new Users(new Long(1), "Debajyoti", "Banerjee", "157094"), "Parent Task 1");
 		ObjectMapper obj = new ObjectMapper();
 		String json = obj.writeValueAsString(task);
-		System.out.println(json);
         mockMvc.perform(MockMvcRequestBuilders.post("/api/task/add")
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(json))

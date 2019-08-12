@@ -107,12 +107,12 @@ public class TaskServiceImpl implements TaskService{
 
 	@Override
 	public void deleteTaskById(Long id) {
-		taskRepo.endTasksByTaskId(id,1);
+		taskRepo.endTasksByTaskId(id,1); 
 	}
 
 	@Override
 	public List<TaskTO> getAllTasksByProjectId(Long projectId) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub 
 		List<Task> taskList = taskRepo.findTasksByProjectId(projectId);
 		List<TaskTO> taskTOList = new ArrayList<TaskTO>();	
 		for(Task task : taskList) {
